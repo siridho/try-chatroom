@@ -1,5 +1,4 @@
 import express from 'express';
-// middlewares
 import { encode } from '../middlewares/jwt.js';
 
 const router = express.Router();

@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 dotenv.config();
 
-// const CONNECTION_URL = `mongodb://${config.db.url}/${config.db.name}`
 const CONNECTION_URL = process.env.DB_CONNECTION_URL;
 
 mongoose.connect(CONNECTION_URL, {

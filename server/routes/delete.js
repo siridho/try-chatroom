@@ -1,5 +1,4 @@
 import express from 'express';
-// controllers
 import deleteController from '../controllers/delete.js';
 
 const router = express.Router();
